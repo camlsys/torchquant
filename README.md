@@ -21,7 +21,7 @@ This package is aimed at researchers who are researching and developing new quan
 TorchQuant as a package can be installed via pip:
 
 ```
-$ pip install git+https://github.com/camlys/torchquant.git
+$ pip install git+https://github.com/camlsys/torchquant.git
 ```
 
 However, if you want to use this package as an starting point to develop your own quantisation schemes you can clone this repository directly in your project and install it in editable mode:
