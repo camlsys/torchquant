@@ -120,7 +120,7 @@ class FusedEfficientNet(nn.Module):
         weight_quantizer: Callable[[nn.Module], Quantizer],
         acts_quantizer: Callable[[nn.Module], Quantizer],
         *,
-        quantize_first: bool = True,
+        quantize_first: bool = False,
         quantize_fc: bool = False,
         avg_pool_quantizer: Optional[Callable[[nn.Linear], Quantizer]] = None,
         fc_weight_quantizer: Optional[Callable[[nn.Linear], Quantizer]] = None,

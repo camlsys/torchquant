@@ -1,7 +1,7 @@
 import torch
 from torch.autograd import Function
 
-__all__ = ["affine_quantize", "qfmt_quantize"]
+__all__ = ["affine_quantize", "qfmt_quantize", "gradient_clip"]
 
 
 class AffineQantizerFunction(Function):
